@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- CSSのリンク -->
+    <link type="text/css" rel="stylesheet" href="./css/style.css" />
+    <!-- jQueryのリンク -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- JavaScriptのソースファイルのリンク -->
+    <script src="./js/program.js"></script>
+
+</head>
+<body>
+    <dl id="panel">
+        <dt>jQueryとは</dt>
+        <dd>
+            jQuery（ジェイクエリー）は、ウェブブラウザ用のJavaScriptコードを
+            より容易に記述できるようにするために設計されたJavaScriptライブラリです。
+            JavaScriptの10行のコードを、jQueryでは1～2行ほどで済ませることができます。
+            jQueryが使われる最大の理由は、どんなブラウザでも使えることです。
+            ブラウザーには、「Edge」、「Chrome」、「Safari」などがありますが、
+            それぞれ微妙に仕様が違うため、同じJavaScriptのコードでも動作が微妙に
+            異なることがあります。jQueryはブラウザーの違いを吸収して、
+            どのブラウザでも同じコードで動作するようにしてくれます。
+        </dd>
+        <dt>ネットワーク上のjQueryにリンクする</dt>
+        <dd>
+            Queryは、CDNという仕組みを利用して、Webを通じてリアルタイムに
+            ダウンロードできるようになっています。CDNでは世界各地にサーバーを配置し、
+            ブラウザーが稼働しているコンピュータに最も近い場所にあるサーバーから
+            jQueryをダウンロードさせます。JavaScriptの外部ファイルのリンク先として
+            CDNのURLを書いておくだけです。ファイルをダウンロードしてサーバーに
+            保存しておくという手間がかからず、非常に便利です。
+        </dd>
+        <dt>jQueryの主な機能</dt>
+        <dd>
+            jQueryは、これまでのほとんどのライブラリのように、標準で用意されている
+            オブジェクトを改変し、機能を強化するものではありません。標準機能には
+            いっさい手を加えず、独自のオブジェクトを用意することですべての機能を
+            実現します。jQueryでは、「セレクター」と呼ばれる方法を使って、
+            HTMLドキュメントから要素を取り出します。ですので、DOMだけで操作する
+            場合に比べて、コードがとてもシンプルです。
+        </dd>
+    </dl>
+</body>
+</html>
