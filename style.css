@@ -1,0 +1,23 @@
+/* idセレクター　表示幅を設定する */
+#panel {
+    width: 500px;
+}
+
+/* #panelが適用されている要素の子要素dtに適用するスタイル */
+#panel>dt {
+    border-left: solid 10px #f6f;
+    border-right: solid 10px #f5f;
+    border-bottom: solid 1px #ccc;
+    background-color: #06c;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    cursor: pointer;
+}
+
+/* #panelが適用されている要素の子要素ddに適用するスタイル */
+#panel>dd {
+    border: solid 1px #ccc;
+    margin: 0px;
+    padding: 10px;
+}
